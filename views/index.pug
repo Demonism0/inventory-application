@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #[em Inventory Application], a basic Express website developed as a project in The Odin Project's Node course.
+
+  h1 Dynamic content
+
+  p The inventory has the following record counts:
+
+  ul
+    li #[strong Items:] !{item_count}
+    li #[strong Categories:] !{category_count}
